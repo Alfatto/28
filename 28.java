@@ -3,6 +3,7 @@ import java.util.*;
 public class Level1{
 
    public static String Keymaker(int k) {
+    
         StringBuilder stringBuilder = new StringBuilder(k);
         stringBuilder.append("0".repeat(Math.max(0, k)));
 
